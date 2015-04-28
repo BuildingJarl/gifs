@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>DOM in ThreeJS</title>
+	</head>
+	<body>
+
+		<!-- DEV MODE -->
+		<script src="jspm_packages/system.js"></script>
+		<script src="config.js"></script>
+		<script>
+			System.import('lib/main');
+		</script>
+
+		<!-- 
+			PRODUCTION MODE
+	    	To generate build.js:
+	    	jspm bundle-sfx --minify lib/main
+	    -->
+	    <!--
+	    <script src="jspm_packages/traceur-runtime.js"></script>
+	    <script src="build.js"></script>
+	    -->
+
+	    <div id="demo">{{hello}}</div>
+
+	</body>
+</html>
